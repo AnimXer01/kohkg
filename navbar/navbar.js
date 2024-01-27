@@ -159,7 +159,7 @@ function redirectToAnotherPage4() {
 const searchAnimeData = async (inputData) => {
   try {
     const getAnimeResult = await axios.get(
-      `https://consumet-api-drab.vercel.app/meta/anilist/${inputData}?page=1&perPage=100`
+      `https://animxer-api-2xwp.vercel.app/meta/anilist/${inputData}?page=1&perPage=100`
     );
     const { results } = getAnimeResult.data;
     loader_container.style.display = "none";
